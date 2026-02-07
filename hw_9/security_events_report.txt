@@ -1,0 +1,28 @@
+ОТЧЕТ ПО АНАЛИЗУ СОБЫТИЙ ИНФОРМАЦИОННОЙ БЕЗОПАСНОСТИ
+============================================================
+
+РАСПРЕДЕЛЕНИЕ СОБЫТИЙ ПО СИГНАТУРАМ:
+----------------------------------------
+• MALWARE-CNC Win.Trojan.Jadtre variant outbound connection
+  Количество: 12
+• EXPLOIT Remote Windows Win32k elevation of privilege attempt
+  Количество: 11
+• EXPLOIT Java JRE to Oracle WebLogic RCE
+  Количество: 11
+• NETBIOS DCERPC NCACN-IP-TCP interfaces BO
+  Количество: 11
+• MALWARE-CNC User-Agent known malicious connecting IP
+  Количество: 11
+• INDICATOR-COMPROMISE Suspicious inbound to mySQL port 3306
+  Количество: 11
+• EXPLOIT Multiple IIS 6.0 attempt
+  Количество: 11
+• EXPLOIT Oracle 9i TNS Listener BO
+  Количество: 11
+• NETBIOS SMB-DS srvsvc NetrPathCanonicalize BO
+  Количество: 11
+
+ОБЩАЯ СТАТИСТИКА:
+Всего событий: 100
+Уникальных сигнатур: 9
+Среднее событий на сигнатуру: 11.1
