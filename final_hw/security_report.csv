@@ -1,0 +1,21 @@
+﻿type,identifier,value,detail
+flagged_ip,198.51.100.44,13.0,alert count
+flagged_ip,203.0.113.15,9.0,alert count
+flagged_ip,172.217.0.99,9.0,alert count
+flagged_ip,45.33.32.156,8.0,alert count
+flagged_ip,10.10.0.20,7.0,alert count
+flagged_ip,10.10.0.30,7.0,alert count
+flagged_ip,10.10.0.40,5.0,alert count
+flagged_ip,85.90.100.22,4.0,alert count
+critical_cve,CVE-2025-21298,9.8,Windows OLE RCE via Outlook Preview
+critical_cve,CVE-2024-47575,9.8,FortiManager Missing Authentication (FortiJump)
+critical_cve,CVE-2025-23006,9.8,SonicWall SMA1000 Deserialization RCE
+critical_cve,CVE-2024-12356,9.8,BeyondTrust PRA Command Injection
+critical_cve,CVE-2024-55591,9.6,FortiOS Authentication Bypass via WebSocket
+critical_cve,CVE-2024-53677,9.5,Apache Struts Path Traversal File Upload
+critical_cve,CVE-2025-22224,9.3,VMware ESXi TOCTOU RCE
+critical_cve,CVE-2025-0282,9.0,Ivanti Connect Secure Stack Buffer Overflow
+critical_cve,CVE-2024-50623,8.8,Cleo Harmony/VLTrader Unrestricted File Upload
+critical_cve,CVE-2025-24472,8.1,FortiOS CSF Proxy Auth Bypass
+critical_cve,CVE-2024-49113,7.5,Windows LDAP Client DoS (LDAPNightmare)
+critical_cve,CVE-2025-0411,7.0,7-Zip Mark-of-the-Web Bypass

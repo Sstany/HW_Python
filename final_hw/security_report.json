@@ -1,0 +1,227 @@
+{
+  "generated_at": "2026-03-12T00:10:45.953606",
+  "flagged_ips": [
+    {
+      "src": "198.51.100.44",
+      "total_alerts": 13
+    },
+    {
+      "src": "203.0.113.15",
+      "total_alerts": 9
+    },
+    {
+      "src": "172.217.0.99",
+      "total_alerts": 9
+    },
+    {
+      "src": "45.33.32.156",
+      "total_alerts": 8
+    },
+    {
+      "src": "10.10.0.20",
+      "total_alerts": 7
+    },
+    {
+      "src": "10.10.0.30",
+      "total_alerts": 7
+    },
+    {
+      "src": "10.10.0.40",
+      "total_alerts": 5
+    },
+    {
+      "src": "85.90.100.22",
+      "total_alerts": 4
+    }
+  ],
+  "alert_categories": [
+    {
+      "cat": "Exploit",
+      "count": 15
+    },
+    {
+      "cat": "Policy",
+      "count": 14
+    },
+    {
+      "cat": "Scan",
+      "count": 11
+    },
+    {
+      "cat": "Malware",
+      "count": 9
+    },
+    {
+      "cat": "WebAttack",
+      "count": 8
+    },
+    {
+      "cat": "Exfiltration",
+      "count": 7
+    }
+  ],
+  "critical_cves": [
+    {
+      "cve_id": "CVE-2025-21298",
+      "description": "Windows OLE RCE via Outlook Preview",
+      "cvss_score": 9.8,
+      "product": "windows"
+    },
+    {
+      "cve_id": "CVE-2024-47575",
+      "description": "FortiManager Missing Authentication (FortiJump)",
+      "cvss_score": 9.8,
+      "product": "fortinet"
+    },
+    {
+      "cve_id": "CVE-2025-23006",
+      "description": "SonicWall SMA1000 Deserialization RCE",
+      "cvss_score": 9.8,
+      "product": "sonicwall"
+    },
+    {
+      "cve_id": "CVE-2024-12356",
+      "description": "BeyondTrust PRA Command Injection",
+      "cvss_score": 9.8,
+      "product": "beyondtrust"
+    },
+    {
+      "cve_id": "CVE-2024-55591",
+      "description": "FortiOS Authentication Bypass via WebSocket",
+      "cvss_score": 9.6,
+      "product": "fortinet"
+    },
+    {
+      "cve_id": "CVE-2024-53677",
+      "description": "Apache Struts Path Traversal File Upload",
+      "cvss_score": 9.5,
+      "product": "apache"
+    },
+    {
+      "cve_id": "CVE-2025-22224",
+      "description": "VMware ESXi TOCTOU RCE",
+      "cvss_score": 9.3,
+      "product": "vmware"
+    },
+    {
+      "cve_id": "CVE-2025-0282",
+      "description": "Ivanti Connect Secure Stack Buffer Overflow",
+      "cvss_score": 9.0,
+      "product": "ivanti"
+    },
+    {
+      "cve_id": "CVE-2024-50623",
+      "description": "Cleo Harmony/VLTrader Unrestricted File Upload",
+      "cvss_score": 8.8,
+      "product": "cleo"
+    },
+    {
+      "cve_id": "CVE-2025-24472",
+      "description": "FortiOS CSF Proxy Auth Bypass",
+      "cvss_score": 8.1,
+      "product": "fortinet"
+    },
+    {
+      "cve_id": "CVE-2024-49113",
+      "description": "Windows LDAP Client DoS (LDAPNightmare)",
+      "cvss_score": 7.5,
+      "product": "windows"
+    },
+    {
+      "cve_id": "CVE-2025-0411",
+      "description": "7-Zip Mark-of-the-Web Bypass",
+      "cvss_score": 7.0,
+      "product": "7zip"
+    }
+  ],
+  "response_actions": [
+    {
+      "action": "firewall_block",
+      "target_ip": "198.51.100.44",
+      "alert_count": 13,
+      "rule": "ufw deny from 198.51.100.44 to any"
+    },
+    {
+      "action": "firewall_block",
+      "target_ip": "203.0.113.15",
+      "alert_count": 9,
+      "rule": "ufw deny from 203.0.113.15 to any"
+    },
+    {
+      "action": "firewall_block",
+      "target_ip": "172.217.0.99",
+      "alert_count": 9,
+      "rule": "ufw deny from 172.217.0.99 to any"
+    },
+    {
+      "action": "firewall_block",
+      "target_ip": "45.33.32.156",
+      "alert_count": 8,
+      "rule": "ufw deny from 45.33.32.156 to any"
+    },
+    {
+      "action": "firewall_block",
+      "target_ip": "10.10.0.20",
+      "alert_count": 7,
+      "rule": "ufw deny from 10.10.0.20 to any"
+    },
+    {
+      "action": "firewall_block",
+      "target_ip": "10.10.0.30",
+      "alert_count": 7,
+      "rule": "ufw deny from 10.10.0.30 to any"
+    },
+    {
+      "action": "firewall_block",
+      "target_ip": "10.10.0.40",
+      "alert_count": 5,
+      "rule": "ufw deny from 10.10.0.40 to any"
+    },
+    {
+      "action": "firewall_block",
+      "target_ip": "85.90.100.22",
+      "alert_count": 4,
+      "rule": "ufw deny from 85.90.100.22 to any"
+    },
+    {
+      "action": "email_soc",
+      "cve": "CVE-2025-21298",
+      "notice": "URGENT: CVE-2025-21298 (CVSS 9.8) — Windows OLE RCE via Outlook Preview"
+    },
+    {
+      "action": "email_soc",
+      "cve": "CVE-2024-47575",
+      "notice": "URGENT: CVE-2024-47575 (CVSS 9.8) — FortiManager Missing Authentication (FortiJump)"
+    },
+    {
+      "action": "email_soc",
+      "cve": "CVE-2025-23006",
+      "notice": "URGENT: CVE-2025-23006 (CVSS 9.8) — SonicWall SMA1000 Deserialization RCE"
+    },
+    {
+      "action": "email_soc",
+      "cve": "CVE-2024-12356",
+      "notice": "URGENT: CVE-2024-12356 (CVSS 9.8) — BeyondTrust PRA Command Injection"
+    },
+    {
+      "action": "email_soc",
+      "cve": "CVE-2024-55591",
+      "notice": "URGENT: CVE-2024-55591 (CVSS 9.6) — FortiOS Authentication Bypass via WebSocket"
+    },
+    {
+      "action": "email_soc",
+      "cve": "CVE-2024-53677",
+      "notice": "URGENT: CVE-2024-53677 (CVSS 9.5) — Apache Struts Path Traversal File Upload"
+    },
+    {
+      "action": "email_soc",
+      "cve": "CVE-2025-22224",
+      "notice": "URGENT: CVE-2025-22224 (CVSS 9.3) — VMware ESXi TOCTOU RCE"
+    },
+    {
+      "action": "email_soc",
+      "cve": "CVE-2025-0282",
+      "notice": "URGENT: CVE-2025-0282 (CVSS 9.0) — Ivanti Connect Secure Stack Buffer Overflow"
+    }
+  ]
+}
